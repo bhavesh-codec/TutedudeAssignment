@@ -1,0 +1,49 @@
+----  1.	Creating and Renaming Files/Directories ------ 
+
+Cmd:- mkdir <directory_name>, touch, rm
+1-	Used this cmd to create test_dir
+2-	Used rm touch cmd to create empty file named- example.txt
+3-	Used rm cmd to rename existing file to renamed_example.txt 
+
+----- 2	Viewing File Contents -------
+ 
+Cmd :- cd ../.. , cat, head, tail
+
+Navigate to home using cd ../.. and then at loc. /etc
+Open the content of passwd file using “cat passwd” cmd
+
+-- Head cmd
+Here using “head -n 5 passwd” cmd fetch first 5 lines of passwd file
+-- Tail cmd
+Here using “tail -n 5 passwd” cmd fetch last 5 lines of passwd file
+
+ 
+---- 3	  Searching for Pattern   -------
+Here used “cat passwd | grep root” cmd to display word root in passwd file
+ 
+
+------  4	Zipping and Unzipping  -----------
+package installation
+Here installed zip and unzip package using “sudo apt install zip unzip” cmd
+
+ 
+-- Zip and Unzip cmd
+Then zipped test_dir direcorty to test_dir.zip file
+For Unzip 
+Create unzipped_dir using mkdir cmd and then used “unzip test_dir.zip -d unzipped_dir” cmd to unzip content to unzipped_dir directory
+
+ 
+----- 5	Downloading files ------
+Used wget “URL” cmd to download data
+ 
+-----  6	changing permission --------
+
+create secure.txt file using “touch secure.txt” cmd and then changed permission using “chmod 444 secure.txt” cmd 
+ 
+
+------- 7	Working with Environment variable ---------
+Here used export cmd to set env variable MY_VAR with value Hello Linux
+Cmd – export MY_VAR= “Hello, Linux!”
+Echo $MY_VAR
+
+ 
