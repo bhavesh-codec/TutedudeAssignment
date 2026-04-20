@@ -19,3 +19,12 @@ if condition is true then user will input the updated values
 then it'll print result
 if condition false then it'll print invalid name.
 
+#file read and write
+created a new file name python.txt
+used variable file1 and then used open function to open the file python.txt
+then read the data from file1 with read() function
+and then print the data
+
+# to write 
+used write function to write data in file and change permission to "r+"
+and then close the file with close() function
