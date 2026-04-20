@@ -1,1 +1,21 @@
-# Grade checke
+# Grade checker
+used int datatype to and input function to take integer value from user
+
+and used if and elif loop to decide with the grade condition
+
+
+# student grades
+used student dictonary 
+2nd 
+added new student in the dictonary 
+here we used 2 diffrent variable and used input function to take student details from user
+and added data as key and value
+
+#Updating existing values to dict.
+
+here we use name varibale and store value from user
+used for loop to check if name is present in student dict.
+if condition is true then user will input the updated values 
+then it'll print result
+if condition false then it'll print invalid name.
+
