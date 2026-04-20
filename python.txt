@@ -1,7 +1,0 @@
-Python Characteristic
-1-Simple and Easy to Read
-2-Interpreted
-3-Dynamically Typed
-4-High-Level programming language
-5-Multi-Paradigm Support
-5-Multi-Paradigm Support
